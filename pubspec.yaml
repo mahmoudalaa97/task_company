@@ -28,6 +28,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+
+  # A flutter library to show images from the internet and keep them in the cache directory.
+  cached_network_image: 3.0.0
+
   # Responsive Framework adapts your UI to different screen sizes automatically. Create your UI once and have it display pixel perfect on mobile, tablet
   responsive_framework: ^0.1.2
 
@@ -44,6 +48,16 @@ dependencies:
 
   # A Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on Android.
   shared_preferences: ^2.0.6
+
+  flutter_svg: ^0.22.0
+
+  carousel_slider: ^4.0.0
+
+  fancy_bottom_navigation:
+    git:
+      url: https://github.com/mahmoudalaa97/fancy_bottom_navigation.git
+      ref: myversion
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

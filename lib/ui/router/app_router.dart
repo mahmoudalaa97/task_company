@@ -14,6 +14,13 @@ class AppRouter {
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
     switch (settings.name) {
       case '/':
+        return MaterialPageRoute(
+          builder: (_) =>
+              BlocProvider(
+                create: (context) => NavigationBarCubit(),
+                child: HomeScreen(),
+              ),
+        );
       default:
         throw ('Route not found!');
     }
