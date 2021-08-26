@@ -70,6 +70,9 @@ class _HomeScreenState extends State<HomeScreen> {
           TabData(
             iconData: Icons.account_balance_wallet_rounded,
             title: "Wallet",
+            onclick: (){
+              NavigationBarCubit.get(context).changePages(index: 1);
+            }
           ),
           TabData(
             iconData: Icons.home_work_outlined,
