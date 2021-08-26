@@ -16,7 +16,7 @@ class CustomAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-          color: MyColors.blueColor, borderRadius: BorderRadius.circular(15)),
+          color: MyColors.blueColor, borderRadius: BorderRadius.only(bottomLeft: Radius.circular(15),bottomRight: Radius.circular(15))),
       padding: EdgeInsets.only(top: 60, bottom: 20, left: 10, right: 10),
       child: Row(
         children: [
