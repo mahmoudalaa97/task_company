@@ -1,8 +1,22 @@
-# app
+# Task
 
-A new Flutter project.
+For Company Interview.
+
+TODO:
+
+- NavigationBar (Done)
+- Custom Design (Done)
+- Bloc to StateManagement (Done)
+
+
+## ScreenShot
+
+![Home Screen](assets/image1.png)
+![Deposit Screen](assets/image2.png)
+
 
 ## Getting Started
+
 
 This project is a starting point for a Flutter application.
 
