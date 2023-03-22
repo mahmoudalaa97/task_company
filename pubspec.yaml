@@ -36,7 +36,7 @@ dependencies:
   responsive_framework: ^0.1.2
 
   # A powerful Http client for Dart, which supports Interceptors, Global configuration, FormData, Request Cancellation, File downloading, Timeout etc.
-  dio: ^4.0.0
+  dio: ^5.0.3
 
   # A predictable state management library that helps implement the BLoC (Business Logic Component) design pattern.
   bloc: ^7.1.0
